@@ -29,7 +29,7 @@ class AuthorPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final author = getAuthorData(authorName);
-    final _buttonCarouselController = CarouselController();
+    final _buttonCarouselController = CarouselSliderController();
     List<BookModel> books = booksByAuthor(authorName);
     int booksLength = (books.length / 2).round();
 

@@ -8,10 +8,10 @@ class FeaturedAuthorsList extends StatefulWidget {
 }
 
 class _FeaturedAuthorsListState extends State<FeaturedAuthorsList> {
-  late final CarouselController buttonCarouselController;
+  late final CarouselSliderController buttonCarouselController;
   @override
   void initState() {
-    buttonCarouselController = CarouselController();
+    buttonCarouselController = CarouselSliderController();
     super.initState();
   }
 

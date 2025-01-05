@@ -8,10 +8,10 @@ class BookCrausal extends StatefulWidget {
 }
 
 class _BookCrausalState extends State<BookCrausal> {
-  late final CarouselController buttonCarouselController;
+  late final CarouselSliderController buttonCarouselController;
   @override
   void initState() {
-    buttonCarouselController = CarouselController();
+    buttonCarouselController = CarouselSliderController();
     super.initState();
   }
 
